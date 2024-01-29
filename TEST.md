@@ -19,4 +19,13 @@ Test: "It recognise 'squ' and move them as one to the end of the word and concat
 Code: modifiedConsonant("quickly".concat("ay"));
 Expected Output: ealsquay
 
+<!-- test three -->
+//first test
+Test: "It moves the first consonant letter to the end of the word and concat 'ay'."
+Code: modifiedConsonant("banana".concat("ay"));
+Expected Output: ananabay
 
+//second test
+Test:"It moves all the consonant before the first vowel to the back of the word and concat 'ay'."
+Code: modifiedConsonant("street".concat("ay"));
+Expected Output: eetstray
