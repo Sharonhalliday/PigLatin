@@ -39,6 +39,8 @@ Test: "It recognise a word starting with a vowel in the sentence and it runs the
 Code: modifiedVowel("umbrella".concat("way"));
 Expected Output: umbrellaway
 
+
+<!-- test two-->
 Test: "It recognise a word starting with a consonant in the sentence and it runs the consonant function
 Code: modifiedConsonant("book".concat("ay"));
 Expected Output: ookbay
