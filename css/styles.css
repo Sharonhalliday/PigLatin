@@ -1,0 +1,23 @@
+Body{
+    background-color:rgb(255, 164, 53);
+}
+.container{
+    margin-top: 120px;
+}
+h2{
+font-weight: bolder;
+font-style: italic;
+color: white;
+}
+h2:hover{
+    color: black;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(255, 23, 62);
+    font-weight: bold;
+}
+p{
+    font-weight: bolder;
+    color: black;
+}
