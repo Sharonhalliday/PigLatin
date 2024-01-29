@@ -14,4 +14,9 @@ Test: "It recognise 'qu' and move them as one to the end of the word and concat 
 Code: modifiedConsonant("quickly".concat("ay"));
 Expected Output: icklyquay
 
+<!-- test two-->
+Test: "It recognise 'squ' and move them as one to the end of the word and concat 'ay'."
+Code: modifiedConsonant("quickly".concat("ay"));
+Expected Output: ealsquay
+
 
