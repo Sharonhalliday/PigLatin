@@ -6,4 +6,12 @@ Expected Output: appleway
 
 
 
+Describe: modifiedConsonant();
+
+
+<!-- test one -->
+Test: "It recognise 'qu' and move them as one to the end of the word and concat 'ay'."
+Code: modifiedConsonant("quickly".concat("ay"));
+Expected Output: icklyquay
+
 
