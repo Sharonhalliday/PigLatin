@@ -15,9 +15,9 @@ Code: modifiedConsonant("quickly".concat("ay"));
 Expected Output: icklyquay
 
 <!-- test two-->
-Test: "It recognise 'squ' and move them as one to the end of the word and concat 'ay'."
+Test: "It recognise a word starting with "s" before "qu" as a consonant and move to the end of the word and concat 'ay'."
 Code: modifiedConsonant("quickly".concat("ay"));
-Expected Output: ealsquay
+Expected Output: quealsay
 
 <!-- test three -->
 //first test
@@ -35,12 +35,29 @@ Describe: pigLatin();
 
 
 <!-- test one -->
+//vowel
 Test: "It recognise a word starting with a vowel in the sentence and it runs the vowel function
 Code: modifiedVowel("umbrella".concat("way"));
 Expected Output: umbrellaway
 
 
 <!-- test two-->
-Test: "It recognise a word starting with a consonant in the sentence and it runs the consonant function
+//for consonant
+
+
+//first 
+Test: "It recognise a word starting with "q" in the sentence and it runs the consonant function
+Code: modifiedConsonant("quick".concat("ay"));
+Expected Output: ickquay  
+
+//second 
+Test: "It recognise a word starting with "s" before "qu" in the sentence and it runs the consonant function
+Code: modifiedConsonant("squeal".concat("ay"));
+Expected Output: quealsay
+
+//third
+Test: "It recognise a word starting with any consonsonant in the sentence and it runs the consonant function
 Code: modifiedConsonant("book".concat("ay"));
-Expected Output: ookbay
+Expected Output: ookbay  
+
+

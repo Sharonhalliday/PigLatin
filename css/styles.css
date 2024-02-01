@@ -1,23 +1,52 @@
-Body{
-    background-color:rgb(255, 164, 53);
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+.form-group {
+    padding-left: 170px;
+    padding-top: 50px;
 }
-.container{
-    margin-top: 120px;
+
+.container-fluid {
+    background-color: coral;
 }
-h2{
-font-weight: bolder;
-font-style: italic;
-color: white;
+
+.container {
+    margin-top: 200px;
+    background-color: rgb(248, 167, 67);
+    width: 900px;
+    height: 300px;
 }
-h2:hover{
-    color: black;
+
+h2 {
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Honk', 'system-ui';
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     color: rgb(255, 23, 62);
     font-weight: bold;
 }
-p{
+
+p {
     font-weight: bolder;
     color: black;
+    font-size: large;
+}
+
+#header {
+    height: 80px;
+    position: static;
+}
+
+#about {
+    padding-left: 100px;
+}
+
+#result {
+    padding-top: 40px;
+    padding-left: 170px;
 }

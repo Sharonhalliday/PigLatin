@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,35 @@
     <script src="js/scripts.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-        <h2>Pig Latin</h2>
-        <form id="word-merch" class="col-md-8">
-            <div class="form-group">
-                <p>Input a text passage:</p>
-                <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
-                <br>
-                <button type="submit" class="btn btn-danger">Submit</button>
-            </div>
-        </form>
+    <div class="container-fluid">
+        <div id="header">
+            <h2>Pig Latin</h2>
+        </div>
         <div>
-            <p id="result"></p>
+            <div id="about">
+                <p>Pig Latin is a language game in which words in English are altered, usually by adding
+                    a fabricated suffix or by moving
+                    the onset or initial consonant or consonant cluster of a word to the end of the word and adding a
+                    vocalic syllable to create such a suffix
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <form id="myForm" class="col-md-10">
+                <div class="form-group">
+                    <p>Input a text passage:</p>
+                    <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+            <div>
+                <p id="result"></p>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
